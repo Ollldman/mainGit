@@ -1,6 +1,8 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int main(){
-    cout<<"Hello world";
+    string a {"Hello world!"};
+    cout<<a<<endl;
     return 0;
 }
