@@ -5,6 +5,6 @@ int main(){
     string b {"Noe noe !! "};
     string a {"Hello world!"};
     string c {"Youp!"};
-    cout<<a+b<<endl;
+    cout<<a+b+c<<endl;
     return 0;
 }
