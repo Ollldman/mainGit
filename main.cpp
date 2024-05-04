@@ -6,5 +6,6 @@ int main(){
     string a {"Hello world!"};
     string c {"Youp!"};
     cout<<a+b+c<<endl;
+    cout<<c+a<<endl;
     return 0;
 }
