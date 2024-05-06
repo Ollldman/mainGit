@@ -13,11 +13,13 @@ int main(){
 		str[30+i] = s[i];
 }
 	str[60] = '\0';
-	cout<<str<<endl; //here we get too but after 30 index we have 
-	                 //a symbols after '\0' and this not output 
-	cout<<"str from for loop: \n";
+	cout<<str<<endl; //here we get too but after 30 index we have
+	                 //a symbols after '\0' and this not output
+	cout<<"str from <for> loop: \n";
 	for(int i =0; i<60;i++){
 		cout<<str[i]; // this output return all contents in str;
 	}
+    cout<<endl;
+    cout<<&str<<" :adress str[0] and: "<<&str[68]<<" :adress of str[68]";
 	return 0;
 }

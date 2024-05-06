@@ -20,7 +20,7 @@ void stringIn(char *str1, char *str2, int n){
 }
 
 void stringOut(char *str, int n){
-//this func boost output string from array, using 
+//this func boost output string from array, using
 //the contents of the string and index n of place;
 	while(n!=0){
 		if(!(*str)) n--;
@@ -30,5 +30,11 @@ void stringOut(char *str, int n){
 }
 
 int main(){
-	
+    char str[120];
+    char str1 [30];
+    cout<<"Input your three  strings:\n";
+    fgets(str1,30,stdin);
+    stringIn(str,str1,1);
+    stringOut(str, 1);
+    return 0;
 }
