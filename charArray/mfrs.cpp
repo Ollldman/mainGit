@@ -20,6 +20,7 @@ int main(){
 		cout<<str[i]; // this output return all contents in str;
 	}
     cout<<endl;
-    cout<<&str<<" :adress str[0] and: "<<&str[68]<<" :adress of str[68]";
+    cout<<&str<<" :adress str[0] and: "<<(void*)&str[68]
+        <<" :adress of str[68]";
 	return 0;
 }
