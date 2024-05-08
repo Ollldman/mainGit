@@ -10,10 +10,8 @@ int main(){
     cin>>m;
     cout<<"And now, enter number of column: ";
     cin>>n;
-//creating array of pointer:
     p = new int*[n];
     for (i = 0; i<m;i++){
-//creating 
         p[i] = new int[n];
         for(j=0;j<n;j++){
             p[i][j] = rand() %10;
@@ -21,9 +19,7 @@ int main(){
         }
         cout<<endl;
     }
-//for loop deleting adresses of first cells of memory srings: 
-    for(i=0;i<n;i++) delete [] p[i]; 
-//next step - deleting adress cells memory array of pointer
+    for(i=0;i<n;i++) delete [] p[i];
     delete [] p;
 return 0;
 }
