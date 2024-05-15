@@ -13,7 +13,7 @@ class Calculator
             cout<<"Messege of calculator\n";
       }
          double stepen(double a, double b){
-            return pow(a,b);
+            return (pow(a,b)+5);
       }
         void setDate(int date_day, int date_month, int date_year){
             day = date_day;
