@@ -1,2 +1,2 @@
-# mainGit
-Here i want to try, like will be work changes with two files
+# Multidevice notebook to learning C++
+I use this repository to teach C ++ and algorithms, as well as simple data structures.
